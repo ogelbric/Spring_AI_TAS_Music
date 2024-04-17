@@ -117,3 +117,8 @@ https://apps.sys.dhaka.cf-app.com/
 it had routing issues since the name of the app conflicted with other users in the org!
 cf delete spring-music-ai-taylors-version-tanzu-live
 ```
+
+## Inspiration
+```
+[Spring Music (Taylor's Version)](https://github.com/nkuhn-vmw/GenAI-for-TAS-Samples/tree/main/spring-music-taylors-version) A modifed version of the classic "Spring Music" Cloud Foundry application infused with magic from the new [Spring AI project](https://github.com/spring-projects/spring-ai). This app will add a "Spring Music Assistant" when the GenAI for TAS service is bound to this application.
+```
