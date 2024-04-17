@@ -91,6 +91,15 @@ tanzu-gpt-genai-service   genai-service   shared-ai-plan             spring-musi
 tanzu-gpt-postgres        postgres        on-demand-postgres-small   spring-music-ai-taylors-version-tanzu-live-orf   create succeeded   postgres-odb    no
 ```
 
+## Lets check things out in TAS Apps Manager the restults
+
+```
+https://apps.sys.dhaka.cf-app.com/
+```
+
+## Jump to application from TAS Apps Manager
+
+
 
 
 ## Delete old not working my app
