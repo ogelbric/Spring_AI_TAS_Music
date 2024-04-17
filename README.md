@@ -112,7 +112,7 @@ https://apps.sys.dhaka.cf-app.com/
 ![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/outcome1.png)
 
 
-## Delete old not working my app
+## Delete old not working app
 ```
 it had routing issues since the name of the app conflicted with other users in the org!
 cf delete spring-music-ai-taylors-version-tanzu-live
