@@ -190,6 +190,10 @@ cf create-service postgres on-demand-postgres-small tanzu-gpt-postgres
 cf create-service genai-service shared-ai-plan tanzu-gpt-genai-service
 ```
 
+```
+cf push
+```
+
 
 
 
