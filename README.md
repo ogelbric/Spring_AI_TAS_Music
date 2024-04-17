@@ -131,3 +131,47 @@ Also shout out to Kirti
 https://github.com/kirtiapte/tas-ai-demo
 
 ```
+
+## In the githup download is also a second example 
+
+```
+ [Gradio Chat]
+(https://github.com/nkuhn-vmw/GenAI-for-TAS-Samples/tree/main/gradio-chat)
+This is the sample chat application from fastchat modified to use GenAI for TAS as the backend LLM.
+```
+
+
+## Create new Space
+```
+export SPACE_NAME="development-radio"
+cf create-space "$SPACE_NAME"
+cf target -s "$SPACE_NAME"
+```
+
+## Marketplace apps 
+```
+cf marketplace
+cf create-service genai-service shared-ai-plan gradio-chat-genai-service
+```
+
+## Change manifest and push app
+```
+vi manifest.yml and -orf to the name
+cf push
+```
+## Jump to application from TAS Apps Manager
+
+![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/appsm5.png)
+
+![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/appsm6.png)
+
+## Outcome
+
+![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/outcome2.png)
+
+
+
+
+
+
+
