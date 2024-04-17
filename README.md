@@ -96,10 +96,20 @@ tanzu-gpt-postgres        postgres        on-demand-postgres-small   spring-musi
 ```
 https://apps.sys.dhaka.cf-app.com/
 ```
+![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/appsm1.png)
+
+![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/appsm2.png)
+
+![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/appsm3.png)
+
 
 ## Jump to application from TAS Apps Manager
 
+![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/appsm4.png)
 
+## Outcome after asking a question and then adding and Album and then asking the same question again
+
+![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/outcome1.png)
 
 
 ## Delete old not working my app
