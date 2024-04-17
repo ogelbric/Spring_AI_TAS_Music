@@ -3,10 +3,10 @@
 This is a demo of Spring and AI libraries and TAS as the host.  
 
 ## Cloud Foundry Install 
-
+```
 https://github.com/cloudfoundry/cli/wiki/V7-CLI-Installation-Guide
 brew install cloudfoundry/tap/cf-cli@7
-
+```
 
 ## Login to TAS demo environment
 
