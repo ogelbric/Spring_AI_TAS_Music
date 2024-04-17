@@ -170,7 +170,25 @@ cf push
 ![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/outcome2.png)
 
 
+## The third directory in the github download from above
+```
+This is a simple python sample application to be used in Cloud Foundry and Tanzu Application Service.
+It makes use of the new GenAI for TAS tile as well as the Tanzu Postgres tile to offer chatbot style workflows with full pgvector embedding support.
+```
 
+## Create new Space
+```
+export SPACE_NAME="development-tanzu-gpt-python"
+cf create-space "$SPACE_NAME"
+cf target -s "$SPACE_NAME"
+```
+
+## Marketplace apps 
+```
+cf marketplace
+cf create-service postgres on-demand-postgres-small tanzu-gpt-postgres
+cf create-service genai-service shared-ai-plan tanzu-gpt-genai-service
+```
 
 
 
