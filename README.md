@@ -190,10 +190,16 @@ cf create-service postgres on-demand-postgres-small tanzu-gpt-postgres
 cf create-service genai-service shared-ai-plan tanzu-gpt-genai-service
 ```
 
+## Change manifest and push app
 ```
 cf push
 ```
 
+## Outcome
+
+![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/outcome3.png)
+
+![Version](https://github.com/ogelbric/Spring_AI_TAS_Music/blob/main/outcome4.png)
 
 
 
