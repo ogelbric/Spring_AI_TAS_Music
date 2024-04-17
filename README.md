@@ -47,9 +47,16 @@ cd kirti
 git clone https://github.com/nkuhn-vmw/GenAI-for-TAS-Samples.git
 cd GenAI-for-TAS-Samples 
 cd spring-music-taylors-version
-vi manifest.yml and -orf to the name
+vi manifest.yml and -{Some unique name here} to the name field
+
+Change from:
+- name: spring-music-ai-taylors-version-tanzu-live
+Change to:
+- name: spring-music-ai-taylors-version-tanzu-live-{Some unique name here} i.e. in my case: - name: spring-music-ai-taylors-version-tanzu-live-orf
 
 ./gradlew build
+
+( I had to run this cf push command several times to over come time outs and "deploy issues" - it also ran for some time)
 cf push
 ```
 
